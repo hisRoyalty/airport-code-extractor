@@ -3,11 +3,16 @@
   "version": "1.0.0",
   "description": "Extracts airport codes from a string.",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hisRoyalty/airport-code-extractor.git"
   },
   "author": "hisRoyalty",
-  "license": "ISC",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/hisRoyalty/airport-code-extractor/issues"
+  },
+  "homepage": "https://github.com/hisRoyalty/airport-code-extractor#readme",
   "dependencies": {
     "decancer": "^1.5.2"
   }

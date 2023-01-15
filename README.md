@@ -17,7 +17,7 @@ npm install airport-code-extractor
 
 
 ````js
-const getAirportCodes = require('airport-code-extractor')
+const { getAirportCodes } = require('airport-code-extractor')
 
 
 console.log(getAirportCodes("George: I really want to go to the Balkans this year. I probably want to go to Istanbul.")) // ['IST']
